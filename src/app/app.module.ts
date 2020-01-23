@@ -14,6 +14,7 @@ import localeEs from "@angular/common/locales/es";
 import { ImagePipe } from './pipes/image.pipe';
 import { MsPipe } from './pipes/ms.pipe';
 import { SanitizePipe } from './pipes/sanitize.pipe';
+import { AlbumComponent } from './componentes/album/album.component';
 registerLocaleData(localeEs);
 
 @NgModule({
@@ -23,9 +24,11 @@ registerLocaleData(localeEs);
     ArtistaComponent,
     BusquedaComponent,
     BarraNavegacionComponent,
+    AlbumComponent,
     ImagePipe,
     MsPipe,
-    SanitizePipe
+    SanitizePipe,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
